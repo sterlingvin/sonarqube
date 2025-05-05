@@ -1,0 +1,46 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+*.pyo
+
+# Virtual environments
+venv/
+.env/
+
+# SonarCloud cache (if used)
+.sonar/
+
+# VSCode settings (optional, if you're using VS Code)
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs and test reports
+*.log
+*.out
+*.coverage
+coverage.xml
+
+# Python virtual environment history
+pip-log.txt
+
+# Python package distribution
+dist/
+build/
+
+# Zappa or deployment files (if reused)
+.zappa/
+
+# Terraform state (if any future IaC is added)
+*.tfstate
+*.tfstate.backup
+.terraform/
+
+# Misc
+*.zip
+*.bak
+*.swp
